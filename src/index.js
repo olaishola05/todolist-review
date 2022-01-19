@@ -1,9 +1,9 @@
 import _ from 'lodash';
 import './style.css';
-import todoUI from '../modules/todos.js';
-import Todos from '../modules/todosClass.js';
-import Methods from '../modules/methods.js';
-import { markCompleted, clearCompleted } from '../modules/Completed.js';
+import todoUI from './modules/todos.js';
+import Todos from './modules/todosClass.js';
+import Methods from './modules/methods.js';
+import { markCompleted, clearCompleted } from './modules/Completed.js';
 
 todoUI();
 const listsContainer = document.querySelector('.todos');
